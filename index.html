@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>week13</title>
+    <script>
+      // Your Code Here
+      let element = document.getElementsByClassName("open");
+      element.onclick = function () {
+        if (element.classList.contains("Elzero")) {
+          element.classList.toggle("show");
+        }
+      };
+    </script>
+
+    <style>
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      .assign {
+        text-align: center;
+        padding-top: 20px;
+      }
+      .assign input {
+        padding: 10px;
+        width: 300px;
+        border: 1px solid #ddd;
+      }
+      .assign input:focus {
+        outline: none;
+        border-color: #ccc;
+      }
+      .assign [title="Current"] {
+        padding: 20px;
+        margin: 10px auto;
+        width: 610px;
+        background-color: #f1f0f0;
+      }
+      .assign .classes-list {
+        padding: 20px;
+        margin: 10px auto;
+        width: 610px;
+        background-color: #f1f0f0;
+      }
+      .assign .classes-list h5 {
+        margin: 0 0 10px;
+        text-align: left;
+      }
+      .assign .classes-list div span {
+        background-color: #ff5722;
+        padding: 6px 10px 8px;
+        margin-right: 5px;
+        border-radius: 6px;
+        color: white;
+        display: inline-flex;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- التكليف 01 -->
+    <!-- <a class="open" href="https://google.com">Google</a>
+    <br />
+    <a class="open" href="https://elzero.org">Elzero</a>
+    <br />
+    <a class="not" href="https://facebook.com">Facebook</a>
+    <br />
+    <a class="linked" href="https://linkedin.com">Elzero</a> -->
+
+    <!-- التكليف 02 -->
+
+    <!-- <div class="assign">
+      <input type="text" class="classes-to-add" placeholder="Add Classes" />
+      <input
+        type="text"
+        class="classes-to-remove"
+        placeholder="Remove Classes"
+      />
+      <div class="element current" title="Current">Current Element</div>
+      <div class="classes-list">
+        <h5>Current Element Class Lists</h5>
+        <div></div>
+      </div>
+    </div> -->
+
+    <!-- التكليف 03 -->
+    <div style="display: none;" class="our-element">Our Element</div>
+    <p style="display: none;>Paragraph</p>
+
+      <!-- التكليف 04 -->
+    <div  style="display: none;" >
+      <span >Hello</span>
+      <!-- We Need The Next Text Without Spaces -->
+      Elzero
+    </div>
+      <!-- التكليف 05 -->
+      <!-- <br />
+      <div>Element</div>
+      <br />
+      <span>Element</span>
+      <br />
+      <p>Element</p>
+      <article>Element</article>
+      <br />
+      <section>Element</section> -->
+
+    <script src="main.js"></script>
+  </body>
+</html>
